@@ -200,6 +200,7 @@
 	font-family: 'Playfair Display', serif;
 	font-size: 36px;
 	padding-top: 20%;
+	margin-bottom: 50px;
 }
 
 .backcontact{
@@ -209,13 +210,75 @@
 }
 .addressxwhy{
 	padding-left: 10%;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 28px;
 }
 .maparea{
 	background-color: #f7f0ea;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .findustext{
 	font-family: 'Playfair Display', serif;
 	font-size: 36px;
-	padding-top: 20%;
+	padding-left: 10%;
+	padding-top: 5%;
+	background-color: white;
+}
+
+.findusminitext{
+	padding-top: 10%;
+	font-family: 'Quicksand', sans-serif;
+	padding-bottom: 10%;
+	font-size: 28px;
+}
+
+.xwhylocation{
+	max-width: 100%;
+	max-height: 50%;
+	padding-top: 2%;
+	padding-bottom: 2%; 
+}
+
+.xwhymap{
+	width: 100%;
+	height: 100%;
+
+}
+
+.newsletterarea{
+background: #f7f0ea;
+}
+.home-newsletter {
+padding: 80px 0;
+}
+
+.home-newsletter .single {
+max-width: 650px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2; }
+.home-newsletter .single h2 {
+font-size: 22px;
+color: black;
+text-transform: uppercase;
+margin-bottom: 40px; }
+.home-newsletter .single .form-control {
+height: 50px;
+background: rgba(255, 255, 255, 0.6);
+/*border-color: transparent;
+border-radius: 20px 0 0 20px;*/ }
+.home-newsletter .single .form-control:focus {
+box-shadow: none;
+/*border-color: #243c4f;*/ }
+.home-newsletter .single .btn {
+min-height: 50px; /*
+border-radius: 0 20px 20px 0;*/
+background: #243c4f;
+color: #fff;
+}
+.subscribetext{
+	color: black;
 }
