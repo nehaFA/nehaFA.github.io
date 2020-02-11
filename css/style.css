@@ -203,7 +203,19 @@
 }
 
 .backcontact{
-	background-color: #ecebec;
+	background-color: #f7f0ea;
 	padding-left: 8%;
 	padding-right: 8%;
+}
+.addressxwhy{
+	padding-left: 10%;
+}
+.maparea{
+	background-color: #f7f0ea;
+}
+
+.findustext{
+	font-family: 'Playfair Display', serif;
+	font-size: 36px;
+	padding-top: 20%;
 }
