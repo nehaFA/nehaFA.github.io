@@ -330,10 +330,68 @@ color: #fff;
 	font-family: 'Playfair Display', serif;
 	font-size: 36px;
 	padding-left: 50px;
-	padding-top: 5%;
+	margin-top: 7%
 }
 .toolgratt{
 	font-family: 'Quicksand', sans-serif;
 	font-size: 28px;
 	padding-left: 50px;
+	margin-top: 5%;
+}
+
+
+-- 
+/*create entry*/
+.nehatest{
+	font-size: 36px;
+	padding-top: 45%;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 45%;
+	margin-bottom: 20%;
+	margin-top: 20%;
+	font-family: 'Playfair Display', serif;
+}
+
+.boxbackcolor{
+	background-color: #f7f0ea;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Playfair Display', serif;
+}
+
+.undernav{
+	background-color: black; 
+}
+
+.diaryentrytitle{
+	font-family: 'Playfair Display', serif;
+	font-size: 28px;
+	margin-bottom: 8%;
+	margin-top: 8%;
+}
+
+.entrytitle{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 24px;
+}
+
+.entrytext{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 24px;
+}
+
+.savebutton{
+	margin-bottom: 10%;
+}
+
+.freetrial{
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+.testyellow{
+	background-image: img/peaceful.jpg;
 }

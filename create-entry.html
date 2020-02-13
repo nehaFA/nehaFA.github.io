@@ -1,33 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
   <style>
     .hidden {
       display: none;
     }
   </style>
 </head>
+
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="#">Create entry</a>
-  </nav>
-  <h1>Create diary entry</h1>
-  <div id="success-msg" class="hidden" style="color: teal">Entry created - <a href="/" id="new-entry-link">view</a></div>
-  <form id="diary-form" action="#">
-    <label for="title">Entry title:</label>
-    <input type="text" name="title">
-    <br/>
-    <label for="description">Entry text:</label>
-    <textarea name="description"></textarea>
-    <br/>
-    <input type="submit" value="Save">
-  </form>
+ <!-- 
+  <div class="container testyellow"> -->
+
+    <div class="row">
+      <div class="col-md-12 undernav">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+              <div class="container">
+                <a class="navbar-brand" href="index.html"><strong>GJ</strong></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="diary.html">My Journal</a>
+                    <li class= "nav-item active">
+                      <a class="nav-link" href="create-entry.html">Create Entry </a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contactus.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+      </div>
+    </div>
+
+    <div class="row undernav">
+      <div class="col-md-12">
+        <br>
+        <br>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3"> </div>
+      <div class="col-md-6 boxbackcolor">
+        <br>
+        <h1 class= "text-center nehamain"> I'm Grateful For...  
+        </h1>
+        <br>
+      </div>     
+      <div class="col-md-3"> </div> 
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-3 picleft">
+       <!--  <img src="img/peaceful.jpg"> -->
+      </div>
+
+      <div class="col-md-6 text-center boxbackcolor">
+        <h1 class="diaryentrytitle"><b>Create Your Diary Entry Below<b> </h1>
+        <div id="success-msg" class="hidden" style="color: teal">Entry created - <a href="/" id="new-entry-link">view</a></div>
+        <form id="diary-form" action="#">
+          <label for="title" class="entrytitle">Diary Title:</label>
+          <input type="text" name="title">
+          <br/> <br>
+          <label for="description" class="entrytext">Main Text:</label>
+          <textarea name="description"></textarea>
+          <br/>
+          <input type="submit" class="savebutton" value="Add to Diary">
+        </form>
+      </div>
+
+      <div class="col-md-3 picright">
+   <!--      <img src="img/peaceful.jpg"> -->
+      </div>
+
+    </div>
+
+  <!-- </div> -->
+
 </body>
+
+
+
+
 
 
 <!-- This script tag powers our form by sending the information to the API once you've cliked submit!  -->
