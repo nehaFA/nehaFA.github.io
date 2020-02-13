@@ -84,13 +84,17 @@
         const ids = Object.keys(data.entries)
         const sortedEntries = ids.sort((a, b) => new Date(data.entries[a]).getTime() - new Date(data.entries[b]).getTime());
         const entriesContent = ids.map(id => `
-          <div>
-            <h3>${data.entries[id].title}</h3>
-            <a href="single-entry.html?id=${id}">view</a>
-            <h4>Published: ${new Date(data.entries[id].createdat).toDateString()} - ${new Date(data.entries[id].createdat).toLocaleTimeString()}</h4>
-            <p>${data.entries[id].description}</p>
-            <hr />
+         
+          
+          <div class="card trialcard" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title titlecard">${data.entries[id].title}</h5>
+              <p class="card-text textcard">${new Date(data.entries[id].createdat).toDateString()} - ${new Date(data.entries[id].createdat).toLocaleTimeString()}</p>
+              <a href="single-entry.html?id=${id}" class="btn btn-dark">View Entry</a>
+            </div>
           </div>
+
+
         `);
         diaryEntries.innerHTML = entriesContent;
       })
