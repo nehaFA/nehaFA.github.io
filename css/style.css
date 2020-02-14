@@ -391,7 +391,32 @@ color: #fff;
 	margin-left: 5%;
 	margin-top: 2%;
 }
-
+/*
 .testyellow{
 	background-image: img/peaceful.jpg;
+}*/
+
+.trialcard{
+	background-color: #f7f0ea;
+	margin-bottom: 2%;
+	margin-top: 2%;
 }
+
+.titlecard{
+	font-family: 'Playfair Display', serif;	
+}
+
+.textcard{
+	font-family: 'Quicksand', sans-serif;	
+}
+
+.successmessage{
+	font-family: 'Playfair Display', serif;	
+}
+
+.viewentry{
+	font-family: 'Playfair Display', serif;	
+	color: black;
+}
+
+
