@@ -71,6 +71,7 @@
 	padding-left: 15%;
 	padding-right: 15%;
 	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
 }
 
 .Expressingtext{
@@ -89,15 +90,15 @@
 .howwegot{
 	font-family: 'Playfair Display', serif;
 	font-size: 36px;
-	padding-top: 15%;
-	padding-left: 20%;
-	padding-right: 10%;
+	padding-right: 15%;
+	padding-top: 10%;
 
 }
 .gotthere-text{
 	padding-top: 10%;
-	padding-left: 20%;
+	padding-left: 10%;
 	padding-right: 15%;
+	font-size: 20px;
 	font-family: 'Quicksand', sans-serif;
 }
 .team{
@@ -300,7 +301,7 @@ color: #fff;
 }
 .stepstojournal{
 	font-family: 'Quicksand', sans-serif;
-	font-size: 28px;
+	font-size: 22px;
 	padding-left: 20%;
 }
 
@@ -419,4 +420,7 @@ color: #fff;
 	color: black;
 }
 
-
+.caro{
+	margin-top: 35px;
+	padding-bottom: 20%;
+}
