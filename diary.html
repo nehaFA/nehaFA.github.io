@@ -83,10 +83,7 @@
       .then(data => {
         const ids = Object.keys(data.entries)
         const sortedEntries = ids.sort((a, b) => new Date(data.entries[a]).getTime() - new Date(data.entries[b]).getTime());
-        const entriesContent = ids.map(id => `
-         
-          
-          <div class="card mx-auto trialcard" style="width: 18rem;">
+        const entriesContent = ids.map(id => `<div class="card mx-auto trialcard" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title titlecard">${data.entries[id].title}</h5>
               <p class="card-text textcard">${new Date(data.entries[id].createdat).toDateString()} - ${new Date(data.entries[id].createdat).toLocaleTimeString()}</p>
@@ -94,8 +91,6 @@
 
             </div>
           </div>
-
-
         `).join("");
         diaryEntries.innerHTML = entriesContent;
       })
